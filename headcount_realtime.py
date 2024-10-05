@@ -6,7 +6,7 @@ from ultralytics import YOLO
 model = YOLO('yolov8n-face.pt')
 
 # Load the video stream
-video_path = "C:/Users/pytho/Downloads/face detection[1].mp4"
+video_path = "face detection[1].mp4"
 cap = cv2.VideoCapture(video_path)
 
 # Get the frame size

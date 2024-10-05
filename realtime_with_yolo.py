@@ -13,7 +13,7 @@ with open('svm_classifier_mega.pkl', 'rb') as f:
     svm_clf = pickle.load(f)
 
 # Load the video stream
-video_path = "C:/Users/pytho/Downloads/face detection[1].mp4"
+video_path = "face detection[1].mp4"
 cap = cv2.VideoCapture(video_path)
 highest_prob = 0.0
 highest_label = None

@@ -7,7 +7,7 @@ import face_recognition
 model = YOLO('yolov8n.pt')
 
 # Load the trained SVM classifier
-with open('C:/AI Projects/Head Count and Image Recognition using Yolo Model custom python/Project/HeadCount_Project/svm_classifier_mega.pkl', 'rb') as f:
+with open('svm_classifier_mega.pkl', 'rb') as f:
     svm_clf = pickle.load(f)
 # Load the video stream
     
